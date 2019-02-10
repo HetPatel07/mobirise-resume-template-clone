@@ -1,0 +1,406 @@
+:root {
+    --firstcolor:
+        #ffbc00;
+}
+
+.home {
+    background-image: url(../images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-content {
+    font-family: dosis;
+    color: #fff;
+    line-height: 24px;
+}
+
+.home-content h2 {
+    font-size: 56px;
+    font-weight: 700;
+
+}
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 300;
+}
+
+.home-content span {
+    font-weight: 700;
+    color: var(--firstcolor);
+}
+
+.home-content p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.home-content button {
+    transition: .5s all;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.home-content button:hover {
+    transition: .5s all;
+    color: #fff;
+}
+
+
+/*about me part*/
+.about-content-upper h2 {
+    font-size: 32px;
+}
+
+.about-content-bottom {}
+
+.about-content-bottom .far {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.about-content-bottom h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about {
+    transition: .5s all;
+    font-family: dosis;
+    color: #232323;
+    padding: 80px 0;
+}
+
+.about h2 {
+
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.about-content {}
+
+.underline {
+    margin: auto;
+    height: 2px;
+    width: 50px;
+    background-color: #232323;
+}
+
+.card-body:hover .far {
+    transition: .3s all;
+    color: var(--firstcolor);
+}
+
+.card-body:hover .fas {
+    transition: .3s all;
+    color: var(--firstcolor);
+}
+
+.about-content p {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+/*award part*/
+.award {
+    margin: 70px 0;
+}
+
+.award .award1 {
+    transition: .3s all;
+    padding: 70px 50px;
+    background-color: #cccccc;
+}
+
+.award .fas {
+    transition: .5s all;
+    font-size: 40px;
+}
+
+.award .far {
+    transition: .5s all;
+    font-size: 40px;
+}
+
+.award h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.award .award1:hover .fas {
+    transition: .3s all;
+    color: var(--firstcolor);
+}
+
+.award .award2:hover .fas {
+    transition: .3s all;
+    color: var(--firstcolor);
+}
+
+.award .award1:hover .far {
+    transition: .3s all;
+    color: var(--firstcolor);
+}
+
+.award p {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.award .award2 {
+
+    padding: 70px 50px;
+    background-color: #efefef;
+}
+
+/*working part*/
+.work {
+    font-family: dosis;
+    color:
+        #232323;
+}
+
+.work h2 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.work p {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.work-card {
+    padding: 0 !important;
+}
+
+.worka {
+    position: relative;
+    width: 130px;
+    margin: auto;
+}
+
+.workamain {
+    position: relative;
+}
+
+.work-card a:hover {
+    text-decoration: none;
+}
+
+.workamain > .fas {
+    transform: translateX(50%);
+    position: absolute;
+    color: lightgrey;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+}
+
+.work-card:hover .worka a:nth-of-type(1) {
+    transition: .3s all;
+    background-color: var(--firstcolor);
+}
+
+.work-card:hover .worka a:nth-of-type(2) {
+    transition: .3s all;
+    background-color: rgb(68, 68, 68);
+    color: #fff;
+}
+
+.work-card .worka a:nth-of-type(1) {
+    margin: auto;
+    transition: .3s all;
+    color: #fff;
+    font-size: 50px;
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+    display: inline-block;
+    background-color: rgb(68, 68, 68);
+}
+
+.work-card .worka a:nth-of-type(2) {
+    position: absolute;
+    color: #232323;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    transition: .3s all;
+    background-color: var(--firstcolor);
+}
+
+.work-card h5 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.work-card .card-text {
+    font-size: 16px;
+}
+
+.work-card .card-text span a {
+    color: var(--firstcolor);
+}
+
+/*about me part 2*/
+
+.aboutme {
+    font-family: dosis;
+    background-color: #efefef;
+    color: #232323;
+    line-height: 1.5;
+}
+
+.aboutme h2 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.aboutme h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.aboutme p {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.aboutme ul li::before {
+    margin-right: 10px;
+    content: '✓';
+    color: var(--firstcolor);
+}
+
+.aboutme ul li {
+    line-height: 2;
+    position: relative;
+    list-style: none;
+}
+
+.innera {
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 50px !important;
+    width: 50px !important;
+    background-color: rgb(68, 68, 68);
+    color: #fff;
+    height: 80px;
+    transition: .3s all;
+}
+
+.innera:hover {
+    background-color: var(--firstcolor);
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+/*footer part*/
+
+footer {
+    padding: 50px;
+    font-family: dosis;
+    background-color: #232323;
+}
+
+footer p {
+    font-weight: 500;
+    margin: 0;
+    color: #c1c1c1;
+}
+
+footer p a {
+    color: var(--firstcolor);
+}
+
+.footerlink a {
+    color: #fff;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 50px !important;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: .3s all;
+}
+
+.footerlink a:hover {
+    background-color: var(--firstcolor);
+    color: #fff;
+    transition: .3s all;
+}
+
+
+
+
+
+
+
+/*responsive part*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .about-content-upper h2 {
+        font-size: 24px;
+    }
+
+    .work-heading h2 {
+        font-size: 24px;
+    }
+
+    .about-content-upper p {
+        font-size: 20px;
+    }
+
+    .work-heading p {
+        font-size: 18px;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    .award .med2 {
+        transition: .3s all;
+        padding: 70px 50px;
+        background-color: #cccccc;
+    }
+
+    .award .med1 {
+
+        padding: 70px 50px;
+        background-color: #efefef;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    /* Styles */
+}
